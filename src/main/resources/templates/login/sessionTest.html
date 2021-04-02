@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1 th:if="${session.userId} != null" th:text="${session.userId}">sessionTest</h1>
+</body>
+</html>
